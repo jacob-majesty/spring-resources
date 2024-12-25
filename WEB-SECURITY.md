@@ -107,7 +107,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 ###  *Sample  of Spring Boot web security configuration including database-backed user authentication and JWT-based stateless authentication*
 
 
-// Example Spring Boot Web Security Configuration with JWT and Database Integration
+Example of Spring Boot Web Security Configuration with JWT and Database Integration
 ```java
 package com.example.securitydemo;
 
