@@ -1,5 +1,10 @@
 Spring Boot simplifies Java development by providing auto-configuration, embedded servers, and production-ready features. It reduces boilerplate code, speeds up development, and integrates seamlessly with the Spring ecosystem. 
 
+![image](https://github.com/user-attachments/assets/5d9f70f9-381a-42af-869c-3a8e20462ef4)
+
+
+
+
 ---
 
 # Spring Boot Components
