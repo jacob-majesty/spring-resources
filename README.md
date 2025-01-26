@@ -54,6 +54,8 @@ This repository demonstrates the core components of a Spring Boot application, s
 
 ## Resources
 
+### Link for engineering books: https://drive.google.com/drive/folders/1FDTV9qTw32VKZGK7pI4iGdNJXrXmzpPV 
+
 ### Official Documentation
 - **[Spring Boot Official Documentation](https://spring.io/projects/spring-boot)**: The official guide to Spring Boot, covering everything from basics to advanced topics.
 - **[Spring Initializr](https://start.spring.io/)**: Quickly bootstrap your Spring Boot projects with the required dependencies.
