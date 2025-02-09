@@ -1,4 +1,5 @@
-Claro, para ajudá-lo a se preparar para uma entrevista de **Java Backend** com foco em **Programação Orientada a Objetos (POO)**, **Streams**, **estruturas de dados eficientes**, **banco de dados** e **boas práticas**, compilei uma lista de **100 perguntas e respostas** que abrangem esses tópicos. As perguntas estão organizadas por tema para facilitar o estudo.
+### Perguntas e respostas para o estudo de Java
+Link: https://www.turing.com/pt/interview-questions/java 
 
 ### Programação Orientada a Objetos (POO)
 
@@ -66,11 +67,6 @@ Claro, para ajudá-lo a se preparar para uma entrevista de **Java Backend** com 
 
 21. **O que são Streams em Java?**
     - **Resposta:** Introduzidos no Java 8, Streams são uma abstração que permitem processar sequências de elementos de forma declarativa, utilizando operações como map, filter e reduce.
-
-
----
-
-### **Streams **
 
 22. **Qual a diferença entre `map()` e `filter()` em Streams?**  
    - **Resposta:**  
@@ -410,3 +406,116 @@ Claro, para ajudá-lo a se preparar para uma entrevista de **Java Backend** com 
 
 ---
 
+---
+
+## Fundamentos de Java
+
+1. **Quais são os fundamentos de Java?**  
+   Os fundamentos de Java incluem tipos de dados, estruturas de controle, loops, arrays, classes e objetos.
+
+2. **O que é uma classe em Java?**  
+   Uma classe é um elemento do código usado para representar objetos da realidade. Ela pode declarar atributos (características) e métodos (comportamentos) dos objetos.
+
+3. **Explique o conceito de polimorfismo em Java.**  
+   Polimorfismo é a capacidade de uma única referência recorrer a métodos diferentes. É usado em herança, onde subclasses podem ter implementações diferentes de métodos sobrescritos.
+
+4. **O que é JVM?**  
+   JVM (Java Virtual Machine) é uma ferramenta que interpreta o código Java e permite sua execução em qualquer plataforma, tornando a linguagem multiplataforma.
+
+5. **O que são exceções em Java?**  
+   Exceções são condições excepcionais registradas durante a execução de um programa. Em Java, elas podem ser verificadas, não verificadas ou erros. São tratadas como objetos que propagam ações inesperadas.
+
+6. **Fale sobre a importância da modularidade do código em Java.**  
+   A modularidade divide o código em módulos ou pacotes independentes, facilitando a manutenção e a organização do programa.
+
+7. **Qual a diferença entre uma classe abstrata e uma interface em Java?**  
+   Uma classe abstrata pode conter lógica, enquanto uma interface apenas define métodos ou propriedades que as classes que a implementam devem declarar.
+
+8. **Fale sobre o uso de banco de dados em Java.**  
+   Bancos de dados são essenciais para persistência, gerenciamento, segurança e integridade dos dados. Os mais usados são PostgreSQL, MariaDB e MySQL.
+
+9. **O que é software de Plug-in Java?**  
+   É um componente do JRE (Java Runtime Environment) que permite a execução de aplicativos baseados em Java em alguns navegadores.
+
+---
+
+## Perguntas para Desenvolvedor Java Pleno/Intermediário
+
+1. **O que são os conceitos de Reflection e Annotations em Java?**  
+   - **Reflection**: Permite criar chamadas em tempo de execução sem conhecer as classes e objetos envolvidos.  
+   - **Annotations**: Adicionam metadados aos objetos para configurá-los.
+
+2. **O que é um EJB?**  
+   EJB (Enterprise JavaBeans) é um componente da plataforma Java EE usado para desenvolver sistemas corporativos modulares e reutilizáveis.
+
+3. **Por que a orientação a objetos é importante em Java?**  
+   A POO (Programação Orientada a Objetos) é essencial em Java, pois organiza o código em classes, objetos, atributos e métodos, facilitando a reutilização e manutenção.
+
+4. **Fale sobre Design Patterns.**  
+   Design Patterns são soluções para problemas comuns de software. Em Java, existem três tipos: criacionais, estruturais e comportamentais.
+
+5. **Como funciona o Kafka?**  
+   Apache Kafka é um sistema de armazenamento e processamento de dados de streaming em tempo real, usado para pipelines e aplicações de streaming.
+
+6. **Como usar testes unitários em Java?**  
+   Testes unitários verificam partes do sistema. Em Java, o framework JUnit é usado para automatizar e simplificar esse processo.
+
+7. **O que é TDD?**  
+   TDD (Test Driven Development) é uma abordagem em que testes automatizados são escritos antes do código funcional, garantindo que o software atenda aos requisitos desde o início.
+
+8. **Qual a diferença entre monolito e microsserviços?**  
+   - **Monolito**: Aplicativo desenvolvido como uma única unidade.  
+   - **Microsserviços**: Coleção de serviços menores e independentes.
+
+9. **O que é o Princípio da Responsabilidade Única?**  
+   Parte do SOLID, esse princípio diz que toda classe deve ter apenas uma responsabilidade, facilitando a manutenção e a escalabilidade.
+
+10. **Qual a diferença entre SQL e NoSQL?**  
+    - **SQL**: Bancos de dados relacionais com tabelas interconectadas.  
+    - **NoSQL**: Bancos de dados não relacionais com dados agrupados em registros.
+
+---
+
+## Perguntas para Desenvolvedor Java Sênior/Avançado
+
+1. **O que é entrega contínua em Java?**  
+   É a automatização dos processos de criação, teste e implementação de código, permitindo prever atualizações antes da implementação.
+
+2. **Por que tornar um objeto imutável em Java?**  
+   A imutabilidade traz vantagens como segurança de thread, capacidade de cache e melhor legibilidade em código multithread.
+
+3. **Por que dominar Kubernetes é importante?**  
+   Kubernetes facilita a implementação de atualizações em aplicativos Java baseados em nuvem, sendo essencial para desenvolvedores seniores.
+
+4. **Como passar um objeto de um thread para outro?**  
+   Uma maneira comum é usar o padrão Produtor/Consumidor com bloqueio de filas.
+
+5. **Explique a função `wait()` em Java.**  
+   A função `wait()` faz o thread atual esperar até que outro thread invoque `notify()` ou `notifyAll()`.
+
+6. **Por que o Spring é importante para um DEV Java Sênior?**  
+   O Spring oferece suporte à infraestrutura de aplicativos Java, facilitando a comunicação com bancos de dados e a injeção de dependência.
+
+7. **Como evitar injeção de SQL em Java?**  
+   Usar `PreparedStatement` é uma prática recomendada, pois protege contra injeções de SQL.
+
+8. **Como funciona o contêiner Spring IoC?**  
+   O contêiner IoC gerencia a criação, conexão e ciclo de vida dos objetos em aplicativos Spring.
+
+9. **Por que o Docker é importante?**  
+   Docker permite implantar aplicativos em containers virtuais, eliminando a necessidade de bancos de dados separados e facilitando a implementação.
+
+10. **O que é JDBC?**  
+    JDBC (Java DataBase Connectivity) é uma API que permite a conexão com bancos de dados relacionais, como MySQL e SQL Server.
+
+---
+
+## Tópicos Adicionais para Estudo
+
+- **Java Collections Framework**: Entenda as interfaces e classes para manipulação de coleções (List, Set, Map, etc.).
+- **Streams API**: Explore o uso de streams para processamento de dados de forma funcional.
+- **Concorrência e Multithreading**: Aprofunde-se em threads, sincronização e execução paralela.
+- **Spring Boot**: Um framework popular para desenvolvimento rápido de aplicativos Java.
+- **Microsserviços com Java**: Aprenda a criar e gerenciar microsserviços usando Spring Cloud e outras ferramentas.
+- **Segurança em Java**: Estude práticas como OAuth2, JWT e criptografia para proteger aplicações.
+- **Integração Contínua/Entrega Contínua (CI/CD)**: Ferramentas como Jenkins, GitLab CI e GitHub Actions para automação de pipelines.
