@@ -1,5 +1,5 @@
 
-```markdown
+
 # 50 Perguntas e Respostas sobre APIs, REST, HTTP e Backend
 
 ## 1. O que é uma API?
