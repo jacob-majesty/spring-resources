@@ -11,6 +11,9 @@ Spring Boot simplifies Java development by providing auto-configuration, embedde
 
 This repository demonstrates the core components of a Spring Boot application, showcasing how they work together to build a robust and scalable system.
 
+![image](https://github.com/user-attachments/assets/622e6171-14f9-4bb7-893a-390ee5fee249)
+
+
 ## Key Components Explained
 
 1. **Controllers**: Handle incoming HTTP requests and define REST endpoints using `@RestController`.
