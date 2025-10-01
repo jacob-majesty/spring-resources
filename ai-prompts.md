@@ -1,62 +1,76 @@
- **15 advanced ChatGPT prompts** that every developer should know. These prompts can assist with coding, debugging, software design, learning new programming concepts, and improving productivity:
+***
 
-### 1. **Code Optimization**
-   **Prompt:**  
-   "I have the following Python function that performs [describe task]. Can you optimize the code to improve its time complexity or readability?"
+### 1. Code Optimization Prompt
 
-### 2. **Debugging Assistance**
-   **Prompt:**  
-   "I'm encountering an error when running this [programming language] code. The error message is [insert message]. Here's the code snippet: [insert code]. Can you help debug it?"
+"I have the following **Python** function that **sorts a list of objects based on a dynamic key**. My current implementation uses a nested loop. Analyze this code and suggest an **optimization** that primarily reduces its **time complexity** (and secondarily, improves readability). Provide the refactored code and an **analysis** of the complexity change (e.g., $O(n^2)$ to $O(n \log n)$).
 
-### 3. **Design Patterns Explanation**
-   **Prompt:**  
-   "Can you explain the [insert design pattern, e.g., Singleton, Factory, Observer] design pattern with an example in [specific programming language]?"
+CODE: [insert code]"
 
-### 4. **Convert Code Between Languages**
-   **Prompt:**  
-   "Can you convert this [programming language] code to [another programming language]? Here is the code: [insert code]."
+### 2. Debugging Assistance Prompt
 
-### 5. **Write Unit Tests**
-   **Prompt:**  
-   "Can you write unit tests for the following function in [programming language] using [unit testing framework]?"
+"I'm encountering a **`NullPointerException`** when running this **Java** code snippet. The error message is **'Cannot invoke "Object.method" because "variable" is null at com.example.Class.method(Class.java:42)'**. Analyze the snippet, identify the **root cause** of the `NullPointerException`, and provide the **corrected code** with a brief explanation of the fix.
 
-### 6. **Code Refactoring Suggestions**
-   **Prompt:**  
-   "Here’s a piece of code I wrote: [insert code]. Can you suggest improvements in terms of performance, readability, and structure?"
+CODE: [insert code]"
 
-### 7. **Algorithm Explanation**
-   **Prompt:**  
-   "Can you explain how the [insert algorithm, e.g., Dijkstra’s, Quicksort, BFS] works, with a detailed step-by-step walkthrough?"
+### 3. Design Patterns Explanation Prompt
 
-### 8. **Generate API Documentation**
-   **Prompt:**  
-   "Please generate API documentation for the following code. It’s written in [programming language], and here is the code: [insert code]."
+"Explain the **Observer** design pattern. Detail its **purpose, structure (UML components)**, and **real-world use cases** (e.g., event handling in GUIs). Provide a complete, runnable code example illustrating the pattern in **TypeScript**."
 
-### 9. **Security Best Practices**
-   **Prompt:**  
-   "What are some security best practices I should follow while developing a web application using [framework/language]? Here’s an overview of my app: [insert description]."
+### 4. Convert Code Between Languages Prompt
 
-### 10. **Performance Profiling**
-   **Prompt:**  
-   "How can I profile and optimize the performance of my application written in [programming language]? Here are the current performance bottlenecks I’ve noticed: [insert issues]."
+"Convert the following **C#** method, which calculates the factorial of a number using recursion, into a functionally equivalent method in **Go (Golang)**. Ensure the Go code adheres to idiomatic conventions, including proper error handling for negative input.
 
-### 11. **Best Practices for Code Reviews**
-   **Prompt:**  
-   "What are some best practices for conducting code reviews in a team setting for a [programming language] project? Any tips on reviewing for efficiency and maintainability?"
+CODE: [insert C# code]"
 
-### 12. **Error Handling Strategies**
-   **Prompt:**  
-   "What are the best error handling strategies in [programming language]? Can you show me an example of good error handling practice?"
+### 5. Write Unit Tests Prompt
 
-### 13. **Build a Full Project Template**
-   **Prompt:**  
-   "Can you create a boilerplate project template for a [framework] application that includes user authentication, logging, and error handling?"
+"Can you write **comprehensive unit tests** for the following **JavaScript** function using the **Jest** framework? Include test cases for **happy path (typical input)**, **edge cases (e.g., zero, negative, null)**, and expected **error conditions**.
 
-### 14. **Explaining Complex Concepts Simply**
-   **Prompt:**  
-   "Can you explain [complex concept, e.g., multithreading, microservices, or AI algorithms] in simple terms for a beginner developer?"
+CODE: [insert function code]"
 
-### 15. **DevOps & CI/CD Pipeline Setup**
-   **Prompt:**  
-   "Can you walk me through setting up a CI/CD pipeline using [tool, e.g., Jenkins, GitLab, GitHub Actions] for a [programming language] project?"
+### 6. Code Refactoring Suggestions Prompt
 
+"Here’s a piece of code written in **Kotlin** that manages user state. Can you suggest **three specific, actionable improvements** focusing on **readability (clarity of intent)** and **structural design (e.g., separation of concerns)**? Provide the refactored code snippet for each suggestion.
+
+CODE: [insert code]"
+
+### 7. Algorithm Explanation Prompt
+
+"Explain how the **Quicksort** algorithm works. Include a detailed, **step-by-step walkthrough** of the partitioning process on the array **`[4, 7, 2, 1, 5]`**. Also, state its **best, average, and worst-case time complexities** using Big O notation."
+
+### 8. Generate API Documentation Prompt
+
+"Please generate API documentation for the following **Python** class methods. The documentation should be formatted using **Sphinx/reStructuredText** and must include **parameter types, return types, and a concise description** for each method.
+
+CODE: [insert Python class/function code]"
+
+### 9. Security Best Practices Prompt
+
+"What are the top five **critical security best practices** I must implement for a **Node.js/Express** web application? My app is a **REST API that handles user authentication via JWTs and processes payment information.** Focus on preventing **Cross-Site Scripting (XSS)** and **SQL Injection**. Provide a brief code example for one mitigation technique."
+
+### 10. Performance Profiling Prompt
+
+"Describe the **step-by-step process** for profiling and optimizing a **Java Spring Boot** application. Focus on using a **specific tool (e.g., VisualVM or JProfiler)** to analyze **memory usage** and **thread contention**. Our current bottlenecks are **high garbage collection overhead** and **slow database queries**."
+
+### 11. Best Practices for Code Reviews Prompt
+
+"Outline the **top five best practices** for conducting **asynchronous code reviews** in a large team setting for a **Golang** project. Include specific tips on how to effectively review for **concurrency bugs, efficiency (performance)**, and overall **maintainability and adherence to idiomatic Go**."
+
+### 12. Error Handling Strategies Prompt
+
+"What are the recommended **error handling strategies** in **Rust**, focusing on the idiomatic use of the **`Result<T, E>` enum**? Provide a clear example of a function that attempts a file operation and demonstrates **propagating** and **mapping** an error using the `?` operator."
+
+### 13. Build a Full Project Template Prompt
+
+"Can you provide a **minimalistic boilerplate project template** for a **React/Next.js** application? The template must include:
+1. A basic file structure (pages, components, API routes).
+2. A functional placeholder for **user authentication (e.g., using `getServerSideProps` for a protected route)**.
+3. A pattern for **centralized logging (e.g., a basic logger utility)**."
+
+### 14. Explaining Complex Concepts Simply Prompt
+
+"Can you explain the concept of **Multithreading vs. Multiprocessing** in simple terms, using the analogy of a **restaurant kitchen**? Clearly define when one should be chosen over the other in a **Python** development context."
+
+### 15. DevOps & CI/CD Pipeline Setup Prompt
+
+"Provide a **step-by-step YAML configuration** for setting up a basic **Continuous Integration (CI) pipeline** using **GitHub Actions** for a **Node.js/npm** project. The pipeline should include the following stages: **checkout, dependency installation (`npm install`), running unit tests, and building the application.**"
