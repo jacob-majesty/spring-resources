@@ -67,6 +67,7 @@ This repository demonstrates the core components of a Spring Boot application, s
 - **[GeeksforGeeks Spring Boot Tutorials](https://www.geeksforgeeks.org/spring-boot/)**: A collection of beginner-friendly tutorials and articles on Spring Boot.
 - **[Baeldung Spring Boot Guides](https://www.baeldung.com/spring-boot)**: In-depth tutorials and best practices for Spring Boot development.
 - **[JavaTpoint Spring Boot Tutorial](https://www.javatpoint.com/spring-boot-tutorial)**: Step-by-step tutorials for learning Spring Boot from scratch.
+- **[JavaToDev](https://www.javatodev.com)**: Practical tutorials and best practices for Spring Boot development.
 
 ### Video Tutorials
 - **[Ali Bouali's YouTube Channel](https://www.youtube.com/@BoualiAli)**: Practical and project-based Spring Boot tutorials, including full-stack development and advanced topics.
